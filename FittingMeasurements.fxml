@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FmController">
+   <children>
+      <Label layoutX="24.0" layoutY="14.0" text="Please enter your measurements:">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NeckSize" layoutX="253.0" layoutY="97.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="ShoulderWidth" layoutX="253.0" layoutY="64.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="ArmLength" layoutX="253.0" layoutY="130.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="ArmSize" layoutX="253.0" layoutY="164.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="WaistLength" layoutX="253.0" layoutY="200.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="TorsoLength" layoutX="253.0" layoutY="239.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="NeckDepth" layoutX="253.0" layoutY="274.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="BackLength" layoutX="253.0" layoutY="311.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="ArmScye" layoutX="253.0" layoutY="356.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="LengthOfGarment" layoutX="253.0" layoutY="392.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="BackSize" layoutX="253.0" layoutY="428.0" prefHeight="26.0" prefWidth="38.0" />
+      <Label layoutX="304.0" layoutY="101.0" text="inches" />
+      <Label layoutX="304.0" layoutY="69.0" text="inches" />
+      <Label layoutX="304.0" layoutY="135.0" text="inches" />
+      <Label layoutX="304.0" layoutY="169.0" text="inches" />
+      <Label layoutX="304.0" layoutY="205.0" text="inches" />
+      <Label layoutX="304.0" layoutY="244.0" text="inches" />
+      <Label layoutX="304.0" layoutY="279.0" text="inches" />
+      <Label layoutX="304.0" layoutY="316.0" text="inches" />
+      <Label layoutX="304.0" layoutY="361.0" text="inches" />
+      <Label layoutX="304.0" layoutY="397.0" text="inches" />
+      <Label layoutX="304.0" layoutY="433.0" text="inches" />
+      <Button fx:id="Continue" layoutX="512.0" layoutY="463.0" mnemonicParsing="false" onAction="#Continue" text="Continue" />
+      <Button fx:id="Back" layoutX="24.0" layoutY="463.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <ImageView fitHeight="277.0" fitWidth="200.0" layoutX="363.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../mm.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="156.0" layoutY="69.0" text="Shoulder Width :" />
+      <Label layoutX="186.0" layoutY="101.0" text="Neck Size :" />
+      <Label layoutX="175.0" layoutY="134.0" text="Arm Length :" />
+      <Label layoutX="186.0" layoutY="168.0" text="Arm Size :" />
+      <Label layoutX="162.0" layoutY="204.0" text="Waist Length :" />
+      <Label layoutX="162.0" layoutY="243.0" text="Torso Length :" />
+      <Label layoutX="166.0" layoutY="279.0" text="Neck Depth :" />
+      <Label layoutX="165.0" layoutY="316.0" text="Back Length :" />
+      <Label layoutX="181.0" layoutY="360.0" text="Arm Scye :" />
+      <Label layoutX="127.0" layoutY="397.0" text="Length Of Garment :" />
+      <Label layoutX="181.0" layoutY="433.0" text="Back Size :" />
+   </children>
+</AnchorPane>

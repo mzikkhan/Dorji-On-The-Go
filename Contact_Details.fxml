@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Contact_Controller">
+   <children>
+      <VBox layoutX="21.0" layoutY="137.0" prefHeight="326.0" prefWidth="193.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="182.0" text="Name :" textAlignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="42.0" prefWidth="180.0" text="Contact Number :">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="180.0" text=" Address :" textAlignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="180.0" text="Email Address :">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="180.0" text="B-Kash Number :">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="59.0" prefWidth="181.0" />
+            <Label alignment="CENTER" prefHeight="43.0" prefWidth="193.0" text="Date of Delivery :">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Label alignment="CENTER" layoutX="215.0" layoutY="48.0" text="Contact Details">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CustomerName" layoutX="220.0" layoutY="148.0" prefHeight="25.0" prefWidth="309.0" promptText="Name" />
+      <TextField fx:id="CustomerPhoneNumber" layoutX="220.0" layoutY="186.0" prefHeight="25.0" prefWidth="309.0" promptText="Contact Number" />
+      <TextField fx:id="CustomerAddress" layoutX="220.0" layoutY="233.0" prefHeight="25.0" prefWidth="309.0" promptText="Address" />
+      <TextField fx:id="CustomerEmailAddress" layoutX="220.0" layoutY="275.0" prefHeight="25.0" prefWidth="309.0" promptText="Email Address" />
+      <TextField fx:id="CustomerBkashNumber" layoutX="220.0" layoutY="317.0" prefHeight="25.0" prefWidth="309.0" promptText="B-Kash Number" />
+      <DatePicker fx:id="CustomerDeliveryDate" layoutX="215.0" layoutY="420.0" onAction="#setCustomerDeliveryDate" prefHeight="25.0" prefWidth="206.0" promptText="Date" />
+      <Button fx:id="btnFinish" layoutX="547.0" layoutY="492.0" mnemonicParsing="false" onAction="#finish" prefHeight="25.0" prefWidth="113.0" text="FINISH">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="42.0" layoutY="492.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Label fx:id="pricingLabel" layoutX="210.0" layoutY="368.0" text="*Express delivery: there is an extra 100tk charge for delivery within 7 days" textFill="#f5130f">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

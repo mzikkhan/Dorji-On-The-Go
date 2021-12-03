@@ -1,0 +1,9 @@
+Kameez 0.0 0.0 0.0 0.0 0.0 zzz 66 mm jjj 777 2021-09-12 
+Kameez 0.0 0.0 0.0 0.0 0.0 ggg 555 ggg ggg 666 2021-09-11 
+Pyjama 55.0 66.0 77.0 88.0 99.0 dddd 444 fgggg jjjjj 666 2021-09-02 
+Kameez 0.0 0.0 0.0 0.0 0.0 null 0 null null 0 null 
+Kameez 7.0 7.0 7.0 7.0 7.0 null 0 null null 0 null 
+Pyjama 1.0 1.0 1.0 1.0 1.0 tt 44 tt tt4 44 2021-10-08 
+Pyjama 7.0 7.0 7.0 7.0 7.0 guji 565 jghj gjh 8787 2021-10-09 
+Pyjama 1.0 1.0 1.0 1.0 1.0 hjgj 676 gjhfj fhghf 56567 2021-10-09 
+Pyjama 12.0 32.0 23.0 23.0 32.0 debo 6969 fgdg gdfdgf 8989 2021-10-09 
