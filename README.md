@@ -5,4 +5,4 @@ on our application to have the dress tailor-made for them. No more overfitting o
 
 I have worked on this project with my teammate Absara Chowdhury.
 
-This project was completed for my university course CSE215: Objected Oriented Programming
+This project was completed for my university course CSE215: Object Oriented Programming
